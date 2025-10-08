@@ -1,0 +1,20 @@
+name: ExamplePlugin
+version: 1.0.0
+description: Example Plugin
+website: https://github.com/VxoidPVP/paper-kotlin-template
+prefix: Example-Plugin
+authors: []
+contributors: []
+
+api-version: '1.21'
+
+main: net.vxoidpvp.example.ExamplePlugin
+loader: net.vxoidpvp.example.loader.ExamplePluginLoader
+bootstrapper: net.vxoidpvp.example.bootstrap.ExamplePluginBootstrap
+
+dependencies:
+  server:
+    Localization:
+      load: AFTER
+      required: true
+      join-classpath: false
