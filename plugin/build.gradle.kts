@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
     implementation(project(":api"))
-    paperDevBundle("${mcVersion}-R0.1-SNAPSHOT")
+    paperweight.paperDevBundle("${mcVersion}-R0.1-SNAPSHOT")
     implementation("net.axay:kspigot:${kSpigotVersion}")
     implementation("com.github.VxoidPVP:localization:1.0.0")
 }
