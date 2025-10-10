@@ -10,7 +10,7 @@ group = "net.vxoidpvp"
 version = "1.0.0"
 
 val kSpigotVersion = "1.21.0"
-val mcVersion = "1.21"
+val mcVersion = "1.21.1"
 
 repositories {
     mavenCentral()
