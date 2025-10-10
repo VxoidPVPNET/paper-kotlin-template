@@ -15,6 +15,7 @@ val mcVersion = "1.21"
 repositories {
     mavenCentral()
     maven("https://jitpack.io")
+    maven("https://repo.lucko.me/")
 }
 
 dependencies {
