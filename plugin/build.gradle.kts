@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm")
+    kotlin("jvm") version "2.1.10"
     id("io.papermc.paperweight.userdev") version "1.7.3"
 }
 
