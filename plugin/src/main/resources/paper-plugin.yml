@@ -16,5 +16,5 @@ dependencies:
   server:
     Localization:
       load: AFTER
-      required: true
+      required: false
       join-classpath: true
