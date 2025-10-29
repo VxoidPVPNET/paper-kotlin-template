@@ -9,6 +9,7 @@ import org.eclipse.aether.repository.RemoteRepository;
 
 public class ExamplePluginLoader implements PluginLoader {
 
+    // Download all Kotlin libs to startup the plugin.
     @Override
     public void classloader(PluginClasspathBuilder classpathBuilder) {
         MavenLibraryResolver resolver = new MavenLibraryResolver();
