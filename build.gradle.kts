@@ -21,11 +21,4 @@ subprojects {
     kotlin {
         jvmToolchain(21)
     }
-
-    tasks.withType<KotlinCompile>().configureEach {
-        compilerOptions {
-            jvmTarget.set(JvmTarget.JVM_21)
-            freeCompilerArgs.add("-Xjvm-default=all")
-        }
-    }
 }
